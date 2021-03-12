@@ -18,8 +18,8 @@ def test_basket_page_booking(browser):
         page.data_2_tourist()
     except NoSuchElementException:
         pass
-#    page.booking_and_get_number()
-    time.sleep(200)
+    page.booking_and_get_number()
+#    time.sleep(200)
 
 
 
